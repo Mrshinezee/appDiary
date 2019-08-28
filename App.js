@@ -6,7 +6,7 @@
  * @flow
  */
 
-import React, {Fragment} from 'react';
+import React, { Fragment } from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -18,12 +18,12 @@ import {
 import {Provider} from 'react-redux';
 
 import {
-  Header,
   LearnMoreLinks,
   Colors,
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Header from './src/components/header/Header';
 
 import Home from './src/screens/home/Home';
 import initStore from './src/redux/store';
